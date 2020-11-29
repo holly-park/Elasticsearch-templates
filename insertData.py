@@ -30,7 +30,7 @@ def insertDataDirect():
     with open('mapping.json', 'r') as f:      #파일열기
         mapping = json.load(f)
         
-    es.indices.create(index=index, body=mapping)    
+    es.indices.create(index=index, body=mapping)    #맵핑하기
 
     doc = {
         "category" : "skirt",
