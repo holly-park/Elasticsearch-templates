@@ -26,3 +26,6 @@ RDBMS의 스키마(schema)와 비슷한 개념. index에 들어가는 데이터 
 Mapping이 정해지지 않은 index에 무작정 문서를 넣어도 Elasticsearch는 자동으로 문서의 내용을 보고, 최선의 Data type을 지정해준다.
 
 
+-d 옵션: 추가할 데이터를 json 포맷으로 전달합니다.
+-H 옵션: 헤더를 명시합니다. 예제에서는 json으로 전달하기 위해서 application/json으로 작성했습니다.
+?pretty: 결과를 예쁘게 보여주도록 요청
