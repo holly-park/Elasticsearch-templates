@@ -1,6 +1,7 @@
 from elasticsearch import Elasticsearch
 
 es = Elasticsearch('[엘라스틱_서버_IP_주소]:9200')
+es.info()
 
 
 # mapping 없이 자동 인덱스 생성
